@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "create": "node packages/toy-cra/index.js",
+    "build": "toy-react-scripts build",
+    "start": "toy-react-scripts start"
+  },
+  "devDependencies": {
+    "lerna": "^5.4.1"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "chalk": "^4.1.2",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.1.0",
+    "toy-cra": "workspace:*",
+    "toy-cra-template": "workspace:*",
+    "toy-react-scripts": "workspace:*",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

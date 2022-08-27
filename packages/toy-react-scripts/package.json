@@ -1,0 +1,20 @@
+{
+  "name": "toy-react-scripts",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "bestkwanwa <bestkwanwa@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "toy-react-scripts": "./bin/toy-react-scripts.js"
+  },
+  "scripts": {
+    "build": "node ./bin/toy-react-scripts.js build",
+    "start": "node ./bin/toy-react-scripts.js start"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0"
+  }
+}
